@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.btn-whatever {
+  border-color: green !important;
+}
+
+.btn-whatever:hover {
+  background-color: green !important;
+  color: white !important;
+}
+/*# sourceMappingURL=index.css.map */
