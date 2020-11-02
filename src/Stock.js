@@ -88,13 +88,16 @@ class Stock extends Component {
                 
                 <div className="form-group">
                <form onSubmit={this.handleSubmit}>
-                    <input type="text" className="form-control" value={this.state.value} onChange={this.handleChange}/>
+                    <input  placeholder="Type Stock name..eg : MSFT" type="text" className="form-control" ref={input => this.search = input}
+          onChange={this.handleInputChange} value={this.state.value} onChange={this.handleChange}/>
                         <button type="submit" className="form-control btn btn-whatever" >Select Stock</button>
+
+
                 </form>
                     
                 </div>
                
-                <h4>Stock Symbol: <span id="demo">NTFX</span></h4>
+                <h4>Stock Symbol: <span id="demo">MSFT</span></h4>
                 
                 <Plot
                     data={[
