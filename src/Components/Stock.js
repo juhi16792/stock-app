@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Plot from 'react-plotly.js';
 
-let stockName = "NFLX";
+let stockName = "MSFT";
 
 class Stock extends Component {
 
